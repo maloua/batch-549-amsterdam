@@ -43,7 +43,6 @@ When calling a method with a block, the block is just another argument of the me
 ```
 def timer
   puts "I'm here first..."
-  start_time = Time.now
   yield
   puts "... and this is my third and final message."
 end
